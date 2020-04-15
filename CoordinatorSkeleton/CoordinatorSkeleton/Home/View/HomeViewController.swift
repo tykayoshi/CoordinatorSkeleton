@@ -22,3 +22,12 @@ class HomeViewController: UIViewController {
 extension HomeViewController: HomeViewProtocol {
     
 }
+
+
+extension HomeViewController {
+    static func makeFromStoryboard() -> HomeViewController {
+        let viewController = StoryboardScene.Home.homeViewController.instantiate()
+        return viewController
+    }
+
+}

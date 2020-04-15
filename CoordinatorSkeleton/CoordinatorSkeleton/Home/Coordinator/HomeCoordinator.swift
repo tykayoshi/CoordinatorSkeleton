@@ -29,7 +29,7 @@ class HomeCoordinator: Coordinator {
     }
     
     override func start() {        
-        let homeViewController = UIStoryboard(name: "Home", bundle: nil).instantiateViewController(withIdentifier: "HomeViewController") as! HomeViewController
+        let homeViewController = HomeViewController.makeFromStoryboard()
         
         let interactor = HomeInteractor()
         let presenter = HomePresenter(view: homeViewController, interactor: interactor, coordinator: self)

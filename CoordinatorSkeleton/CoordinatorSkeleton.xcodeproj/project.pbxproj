@@ -96,6 +96,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C44C5C3C24473103003B7825 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C44C5C3D2447310C003B7825 /* Generated */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C44C5C3D2447310C003B7825 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 		C4DFE8E5232F9E04001EEB3D = {
 			isa = PBXGroup;
 			children = (
@@ -119,6 +134,7 @@
 		C4DFE8F0232F9E04001EEB3D /* CoordinatorSkeleton */ = {
 			isa = PBXGroup;
 			children = (
+				C44C5C3C24473103003B7825 /* Resources */,
 				C4DFE92A232FC3DE001EEB3D /* Extensions */,
 				C4DFE927232FC37E001EEB3D /* Home */,
 				C4DFE922232FA0A2001EEB3D /* Base */,

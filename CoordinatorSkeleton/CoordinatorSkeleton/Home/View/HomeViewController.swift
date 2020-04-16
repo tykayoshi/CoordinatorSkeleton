@@ -29,5 +29,4 @@ extension HomeViewController {
         let viewController = StoryboardScene.Home.homeViewController.instantiate()
         return viewController
     }
-
 }
